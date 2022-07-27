@@ -4,4 +4,36 @@
 @import 'libs';
 @import 'global';
 
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5rem;
+  }
+  &__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
 
+.logo {
+  margin: 0 auto;
+}
+
+.menu {
+  padding-right: 0.94rem;
+  &__list {
+    display: flex;
+  }
+  &__list-item {
+    padding-left: 2.18rem;
+    padding-right: 2.8rem;
+  }
+  &__list-link {
+    @extend %title-font;
+    color: rgba(54, 56, 56, 0.9);
+    line-height: 1.375rem;
+  }
+}
