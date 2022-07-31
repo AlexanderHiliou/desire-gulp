@@ -11,6 +11,8 @@ body {
 	line-height: 1.688rem;
 	font-weight: 400;
 	color: $default;
+	overflow-x: hidden;
+	min-width: 20rem;
 }
 
 .wrapper {
